@@ -11,15 +11,15 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+    // MARK: Properties
+    let targetNumber = Int.random(in: 1...100)
+    
+    // MARK: Initializers
+    
+    
+    // MARK: Methods (functions) - behaviours
+
     override func viewDidLoad() {
-        
-        // MARK: Properties
-        let targetNumber = Int.random(in: 1...100)
-        
-        // MARK: Initializers
-        
-        
-        // MARK: Methods (functions) - behaviours
         
         // Runs as soon as the view becomes visible to the user
         super.viewDidLoad()
