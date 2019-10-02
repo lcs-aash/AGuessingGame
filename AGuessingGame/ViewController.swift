@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         // MARK: Properties
-        
+        let targetNumber = Int.random(in: 1...100)
         
         // MARK: Initializers
         
